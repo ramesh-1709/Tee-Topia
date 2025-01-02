@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEA TOPIA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <style>
+    *{
+      padding-top: 0%;
+      margin: 0%;
+    }
+    h3{
+      color: #ff3300;
+    }
+    .one {
+      float: right;
+      margin-top: -35px;
+      margin-right: 85px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      border-radius: 20px;
+    }
+
+    h3 {
+      display: inline-block;
+      padding: 5%;
+      margin: bottom 70%;
+    }
+
+    .container {
+
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 1300px;
+      border: none;
+      
+
+    }
+
+    .container div {
+      flex-basis: 30%;
+      padding: 25px;
+      border: none;
+
+    }
+    .flex {
+  
+      display: flex;
+      gap: 20px;
+      justify-content: space-evenly;
+    
+    }
+ 
+    td {
+      padding: 10px;
+    }
+
+    h3 {
+      text-shadow: 2px;
+      padding: 10px;
+    }
+
+    .card {
+      width: 300px;
+      height: 200px;
+      align-items: center;
+      position: relative;
+      bottom: 10px;
+    }
+     .card:hover{
+      transform: scale(1.1);
+     }
+   
+   .img:hover{
+    transform: scale(1.2);
+   }
+   .search{
+    position: relative;
+    right: 50px;
+   }
+   .user{
+   
+  position: relative;
+  right: 30px;
+   }
+   .containerf {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1300px;
+    border: none;
+    padding-left: 180px;
+    padding-top: 20px;
+
+  }
+  a{
+    color: black;
+    
+   
+  }
+  </style>
+</head>
+
+<body >
+  <nav class="navbar sticky-top navbar-expand-lg bg-body-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <h3>TEE TOPIA</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-secondary" aria-current="page" href="home.html">Home</a>
+          </li>
+          <div class="dropdown dropend">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-secondary w-50" href="#" role="button" data-bs-toggle="dropdown"
+                style="color: black;">
+                Categories
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="tea.html">TEA </a></li>
+                <li><a class="dropdown-item" href="desserts.html"> DESSERTS</a></li>
+                <li><a  class="dropdown-item" href="noodles.html">NOODLES</a></li>
+                <li><a class="dropdown-item" href="briyani.html">BRIYANI</a></li>
+                <li><a class="dropdown-item" href="veg.html">PURE-VEG</a></li>
+                <li><a class="dropdown-item" href="pizza.html">PIZZA</a></li>
+              </ul>
+            </li>
+          </div>
+        </ul>
+        <div class="search">
+        <form class="d-flex" role="search">
+          <input type="text"style="border-radius: 10px;"   id="searchInput" placeholder="Search for items..." >
+          
+          <button class="btn btn-outline-success" type="submit" style="border: none;">search</button>
+          
+        </div>
+     <a class="user" href="sign up.html"><i class="fa-solid fa-user"></i></a> 
+        
+          
+        </form>
+      </div>
+    </div>
+
+
+  </nav>
+  </header>
+  <div class="flex">
+  
+    <div class="img">
+      <a href="#"><img
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/11/3/fdde9ae7-1ec7-4490-a244-ed4b03185906_sandwich.png"
+        height="150px" width="150px" class="bdr">
+      </a>
+    </div>
+
+    <div class="img">
+      <a href="briyani.html"><img
+      src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Biryani.png"
+      height="150px" width="150px" class="bdr">
+      </a>
+  </div>
+  <div class="img">
+    <a href="pizza.html"><img
+    src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png"
+    height="150px" width="150px" class="bdr">
+    </a>
+</div>
+
+<div class="img">
+  <a href="#"><img
+  src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png"
+  height="150px" width="150px" class="bdr">
+  </a>
+</div>
+
+<div class="img">
+  <a href="#"><img
+  src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_cake.png"
+  height="150px" width="150px" class="bdr">
+  </a>
+</div>
+
+<div class="img">
+  <a href="#"><img
+  src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Rasgulla.png"
+  height="150px" width="150px" class="bdr">
+  </a>
+</div>
+
+<div class="img">
+  <a href="#"><img
+  src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/17/58760e8e-324f-479e-88fa-31800120ea38_Rolls1.png"
+  height="150px" width="150px" class="bdr">
+  </a>
+</div>
+
+<div class="img">
+  <a href="#"><img
+  src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png"
+  height="150px" width="150px" class="bdr">
+  </a>
+</div>
+
+
+<div class="img">
+  <a href="#"><img
+  src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North%20Indian.png"
+  height="150px" width="150px" class="bdr">
+  </a>
+</div>
+
+
+<div class="img">
+  <a href="#">
+  <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/3f2c40d3-96c7-44ce-8b35-aef6ea746cdc_lassi.png" height="150px" width="150px" class="bdr">
+  </a>
+</div>
+    
+  </div>
+  <div class="container">
+    <div>
+      <div class="card">
+        <a href="tea.html"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/cb5669c8-d6f1-46ab-b24d-3da99b9fa32c_tea.png"style="height: 160px;">
+        </a>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <a href="desserts.html"><img
+          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Desserts.png" style="height: 160px;">
+  </a>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <a href="noodles.html"><img
+          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png"
+          style="height: 160px;"></a>
+        </div>
+    </div>
+    <div>
+      <div class="card">
+        <a href="briyani.html"><img
+          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Biryani.png"
+          style="height: 160px;"></a>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <a href="veg.html"><img
+          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pure%20Veg.png"
+          style="height: 160px;"></a>
+        
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <a href="pizza.html"><img
+          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png"
+          style="height: 160px;"></a>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+<footer class="bg-body-secondary">
+  <div class="containerf">
+    <div>
+      <h4>Company</h4>
+      <p>About</p>
+      <p>Careers</p>
+      <p>Team</p>
+    </div>
+    <div>
+      <h4>We Deliver to:</h4>
+      
+          <select >
+              <option>
+                  coimbatore
+              </option>
+              <option>Ghandhi Puram</option>
+              <option>Rs Puram</option>
+              <option>Singanallur</option>
+              <option>Peelamedu</option>
+          </select>
+    </div>
+ 
+    <div>
+      <h4>Legal</h4>
+      <p>Terms&Conditions</p>
+      <p>Cookie Policy</p>
+      <p>Privacy policy</p>
+      <p>Investor Reactions</p>
+    </div>
+
+    <div>
+      <h4>Contact Us</h4>
+      <p>Help&support</p>
+      <p>Partner With us</p>
+      <p>Ride With Us</p>
+    </div>
+    <div>
+      <h4>Social links</h4><br>
+      <i class="fa-brands fa-instagram" ></i >
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+  </div>
+</footer>
+
+   
+  <p id="p" style="padding-left: 40%;" >Copyright@ Topia Builders pvt Ltd</p>
+
+
+
+</html>

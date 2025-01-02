@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>sign up.html</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+          
+           .container{
+            width: 25%;
+            
+           }
+           
+           input[type=text], input[type=password] {
+            width: 90%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            border-radius: 20px;
+            background: #f1f1f1;
+          }
+            
+            input[type=text]:focus, input[type=password]:focus {
+              background-color: #ddd;
+              outline: none;
+            }
+            input:hover{
+              border: 1px solid;
+            }
+            button {
+              background-color: #04AA6D;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+              opacity: 0.9;
+              border-radius: 20px;
+              
+            }
+            
+            button:hover {
+              opacity:1;
+            }
+            .cancelbtn {
+              padding: 14px 20px;
+              background-color: #f44336;
+              border-radius: 20px;
+            }
+            .cancelbtn, .signupbtn {
+              float: left;
+              width: 50%;
+            }
+            .container {
+              padding: 16px;
+            }
+          
+           label{
+            color: black;
+           }
+           .container1{
+            border-color: black;
+            width: 80%;
+           }
+           a{
+            text-decoration: none;
+           }
+        </style>
+    </head>
+    <body style="background: rgb(11,18,198);
+background: linear-gradient(90deg, rgba(11,18,198,1) 0%, rgba(9,62,121,0.8414216028208158) 75%);">
+      <center>
+        <h1 style="color:#f44336;">Tee Topia</h1>
+<form action="home.html" >
+  
+  <div class="container">
+    <h3 style="color:black"> <i class="fa-solid fa-user">Sign Up</i></h3>
+    <p style="color: black;">Please fill in this form to create an account.</p>
+   
+ <div class="container1">
+    <label ><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <label ><b>Re-enter Password</b></label>
+    <input type="password" placeholder="Re-enter Password" name="psw-repeat" required><br>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue"><br>Terms & Privacy</a>.</p>
+    <button style="background-color:skyblue;"><a href="login.html">Login</a></button>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+ </div>
+  </div>
+</form>
+</center>
+    </body>
+</html>

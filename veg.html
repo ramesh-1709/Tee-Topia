@@ -1,0 +1,289 @@
+<html>
+   <head>
+      <title>veg</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+      <style>
+        
+      .container {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      border: none;
+  }
+  .container div{
+     flex-basis: 20%;
+     padding: 5px;
+     border:none;
+  }
+  img{
+   width: 100%;
+   height: 180px;
+   border-radius: 20px;
+ }
+ .card{
+     
+     width:260px;
+     align-items: center;
+     border-radius: 5px;
+   
+   }
+   .card:hover{
+    transform: scale(1.1);
+   }
+    button{
+      border-radius: 5px;
+       width: 100px;
+       background-color: #ff3300;
+       color: antiquewhite;
+      
+   }
+   h1{
+      color:#ff3300
+    }
+    h3{
+      color: #ff3300;
+    }
+    .btn{
+      width: 60%;
+      border: none;
+     } 
+     #next{
+      position: relative;
+         float: right;
+         right: 30px;
+         width: 30px;
+         bottom: 25px;
+           border: none;
+           background-color:white;
+         border-radius: 20px;
+    }
+    #back{
+      position: relative;
+      float: left;
+      left: 30px;
+      width: 30px;
+      bottom: 25px;
+        border: none;
+        background-color:white;
+      border-radius: 20px;
+    }
+    #back:hover{
+      color: antiquewhite;
+      background-color: #ff3300;
+    }
+    #next:hover{
+      color:antiquewhite;
+      background-color:#ff3300;}
+    button:hover{
+      color:#ff3300;
+      background-color:antiquewhite;
+     }
+    a{
+      text-decoration: none;
+      color:black;
+    }
+    .containerf {
+
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 1300px;
+      border: none;
+      padding-left: 180px;
+      padding-top: 20px;
+  
+    }
+      </style>
+   </head>
+<body>
+   <nav class="navbar sticky-top navbar-expand-lg bg-body-secondary  ">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <h3 >TEE TOPIA</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
+            </li>
+            <div class="dropdown dropend">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown"
+                  style="color: black;">
+                  Categories
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="tea.html">TEA </a></li>
+                  <li><a class="dropdown-item" href="desserts.html"> DESSERTS</a></li>
+                  <li><a  class="dropdown-item" href="noodles.html">NOODLES</a></li>
+                  <li><a class="dropdown-item" href="briyani.html">BRIYANI</a></li>
+                  <li><a class="dropdown-item" href="veg.html">PURE-VEG</a></li>
+                  <li><a class="dropdown-item" href="pizza.html">PIZZA</a></li>
+                </ul>
+              </li>
+            </div>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">search</button>
+            
+          </form>
+        </div>
+      </div>
+    </nav>
+    </header>
+   <h1 style="text-align: center;">veg</h1>
+   <div class="btn">
+   <button ><a href="#">Filter</a></button>
+   <button ><a href="#">Sort</a></button>
+   <button style="width:15%"><a href="veg less.html" > Less than 100</a></button>
+   <button style="width:20%"> <a href="veg more .html" >More than 140-300</a></button>
+   </div>
+    <div class="container">
+       <div>
+         <div class="card">
+        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/8b7929305cf0474494e7347fe795574c" alt="">
+        <h5>Veg Keema</h5>
+        <p><i class="fa-solid fa-star"></i>4.5ratings</p>
+        <details>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugiat quis autem odio.</details>
+        <p> ₹401</p>
+        <a href="order.html"> <button>order</button></a> 
+       </div>
+       </div>
+       <div>
+         <div class="card">
+         <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/6f9802f2dc6532ac94b3eff6564f9385" alt="">
+         <h5>Veg Thali</h5>
+         <p><i class="fa-solid fa-star"></i>4.1ratings</p>
+         <details>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium consectetur dolores sunt officiis illum iusto veritatis ut!</details>
+         <p> ₹300.40</p>
+         <a href="order.html"> <button>order</button></a> 
+        </div>
+       </div>
+        <div>
+         <div class="card">
+         <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/1/450bd971-e547-4d74-80bc-74bad0fc0e22_1448073c-f670-4385-8984-25c785a6d4fc.jpg_compressed" alt="">
+         <h5>Onion Uttapam</h5>
+         <p><i class="fa-solid fa-star"></i>4.01ratings</p>
+         <details>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, culpa. Dignissimos, repudiandae expedita.</details>
+         <p> ₹100.20</p>
+         <a href="order.html"> <button>order</button></a> 
+        </div>
+        </div>
+        <div>
+         <div class="card">
+         <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/1/21b0079e-98cd-45a9-bffb-a7241cfa5b75_510f9f89-d470-4f2e-af52-1f7e6950ba23.jpg_compressed" alt="">
+         <h5>Onion Dosai </h5>
+         <p><i class="fa-solid fa-star"></i>4.2ratings</p>
+         <details>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus perspiciatis animi ipsam ab ducimus amet?</details>
+         <p> ₹150.25</p>
+         <a href="order.html"> <button>order</button></a> 
+        </div>
+        </div>
+        <div>
+         <div class="card">
+         <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/1/09b86e63-2274-4947-8b7f-a9b2c35259ad_a8d7dc3c-db92-493d-a77f-c6a5c02b705b.jpg_compressed" alt="">
+         <h5>Rava Kesari</h5>
+         <p><i class="fa-solid fa-star"></i>3.8ratings</p>
+         <details>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae odio consectetur provident.</details>
+         <p> ₹95.10</p>
+         <a href="order.html"> <button>order</button></a> 
+        </div>
+        </div>
+        <div>
+         <div class="card">
+         <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/361064ed9b05f36d6613bf26906edeea" alt="">
+         <h5> Idly 2 (nos)</h5>
+         <p><i class="fa-solid fa-star"></i>3.6ratings</p>
+         <details>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eaque beatae ut?</details>
+         <p> ₹60.70</p>
+         <a href="order.html"> <button>order</button></a> 
+        </div>
+        </div>
+        <div>
+         <div class="card">
+         <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/1/4706cd8f-2210-47c3-8391-3aacb864226a_51d6df5f-e759-4320-b65b-5ba7dbffee99.jpg_compressed"alt="">
+         <h5>Ghee Pongal</h5>
+         <p><i class="fa-solid fa-star"></i>3.90ratings</p>
+         <details>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequuntur amet rem?</details>
+         <p> ₹130.40</p>
+         <a href="order.html"> <button>order</button></a> 
+        </div>
+        </div>
+        <div>
+         <div class="card">
+         <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/1/bd88adf5-ef64-4bd8-a09e-c91fd7657f81_c2f889d8-50aa-4f47-8703-b10c15577112.jpg_compressed" alt="">
+         <h4>Sambar Idly</h5>
+         <p><i class="fa-solid fa-star"></i>4.7ratings</p>
+         <details>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consectetur possimus sapiente tempore explicabo magni.</details>
+         <p> ₹100.40</p>
+         <a href="order.html"> <button>order</button></a> 
+        </div>
+        </div>
+    </div>
+    <button id="back"><a href="briyani.html"> <i class="fa-solid fa-arrow-left"></i></a></button>
+    <button id="next"><a href="pizza.html"> <i class="fa-solid fa-arrow-right-long" ></i></a></button>
+      
+    
+ 
+</body>
+<footer class="bg-body-secondary">
+  <div class="containerf">
+    <div>
+      <h4>Company</h4>
+      <p>About</p>
+      <p>Careers</p>
+      <p>Team</p>
+    </div>
+    <div>
+      <h4>We Deliver to:</h4>
+      
+          <select >
+              <option>
+                  coimbatore
+              </option>
+              <option>Ghandhi Puram</option>
+              <option>Rs Puram</option>
+              <option>Singanallur</option>
+              <option>Peelamedu</option>
+          </select>
+    </div>
+ 
+    <div>
+      <h4>Legal</h4>
+      <p>Terms&Conditions</p>
+      <p>Cookie Policy</p>
+      <p>Privacy policy</p>
+      <p>Investor Reactions</p>
+    </div>
+
+    <div>
+      <h4>Contact Us</h4>
+      <p>Help&support</p>
+      <p>Partner With us</p>
+      <p>Ride With Us</p>
+    </div>
+    <div>
+      <h4>Social links</h4><br>
+      <i class="fa-brands fa-instagram" ></i >
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+  
+  </div>
+</footer>
+<p id="p" style="padding-left: 40%;" >Copyright@ Topia Builders pvt Ltd</p>
+</html>
